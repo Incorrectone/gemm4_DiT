@@ -2,6 +2,11 @@
 
 A custom, highly optimized 33M parameter Diffusion Transformer trained from scratch using Optimal Transport Conditional Flow Matching (OT-CFM). This project implements state-of-the-art generative modeling techniques, completely bypassing disk I/O bottlenecks to train efficiently on a single consumer GPU (RTX 5060 Ti).
 
+## Credits & Acknowledgements
+- **Text Encoder:** [Google Gemma 4 (e4b) on Kaggle](https://www.kaggle.com/models/google/gemma-4)
+- **Dataset:** [COCO 2017 Dataset by awsaf49](https://www.kaggle.com/datasets/awsaf49/coco-2017-dataset)
+- **Architecture Inspiration:** [Scalable Diffusion Models with Transformers (DiT)](https://arxiv.org/abs/2212.09748) by William Peebles and Saining Xie.
+
 ## Architecture & Features
 
 - **Model:** DiT-Small (12 layers, 6 heads, 384 hidden dim, 33M parameters)
