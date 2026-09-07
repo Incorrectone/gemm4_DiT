@@ -1,0 +1,7 @@
+coco_vae_latents_train/
+coco_vae_latents_val/
+.venv/
+checkpoints/
+llm_context/
+gemma4_40_pooled/
+VAE_latents/
