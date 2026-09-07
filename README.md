@@ -49,3 +49,7 @@ The model is currently undergoing a 40-epoch weekend training run. Final generat
 - **High-LR Warm Start:** If the network plateaus but hasn't overfit by Epoch 40, we plan to warm-start a second training run from the final checkpoint using an aggressive learning rate (`3e-4` to `4e-4`) to break through into a deeper local minimum. 
 - **Architecture Scaling (DiT-Base):** While the 33M parameter model should have more than enough mathematical capacity for a 118k image dataset, if semantic text adherence plateaus, the architecture is ready to seamlessly scale up to a **DiT-Base (130M parameters)** (hidden size 768, 24 layers).
 - **Dataset Expansion:** Depending on baseline visual results, future iterations may integrate JourneyDB or synthetic captions to push the DiT to its theoretical limits.
+
+## Disclaimer
+
+*Portions of this project's architecture, data pipeline, and codebase were developed and optimized with the assistance of an AI coding agent.*
